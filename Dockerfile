@@ -18,7 +18,8 @@ RUN apt-get update -y && apt-get install -y \
   wget \
   libssl-dev \
   libxml2-dev \
-  libnss-sss
+  libnss-sss \
+  libpng-dev
 
 # change working dir
 WORKDIR /usr/local/bin
